@@ -37,7 +37,7 @@
             // txtName
             // 
             txtName.Location = new Point(138, 26);
-            txtName.Margin = new Padding(2, 2, 2, 2);
+            txtName.Margin = new Padding(2);
             txtName.Name = "txtName";
             txtName.Size = new Size(100, 23);
             txtName.TabIndex = 0;
@@ -45,7 +45,7 @@
             // btnAdd
             // 
             btnAdd.Location = new Point(138, 55);
-            btnAdd.Margin = new Padding(2, 2, 2, 2);
+            btnAdd.Margin = new Padding(2);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(100, 23);
             btnAdd.TabIndex = 1;
@@ -68,7 +68,7 @@
             lstNames.FormattingEnabled = true;
             lstNames.ItemHeight = 15;
             lstNames.Location = new Point(12, 27);
-            lstNames.Margin = new Padding(2, 2, 2, 2);
+            lstNames.Margin = new Padding(2);
             lstNames.Name = "lstNames";
             lstNames.Size = new Size(120, 94);
             lstNames.TabIndex = 3;
@@ -82,7 +82,7 @@
             Controls.Add(label1);
             Controls.Add(btnAdd);
             Controls.Add(txtName);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Form1";
             Text = "Names";
             ResumeLayout(false);
