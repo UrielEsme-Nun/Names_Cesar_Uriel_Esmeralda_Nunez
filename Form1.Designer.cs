@@ -37,13 +37,15 @@
             // txtName
             // 
             txtName.Location = new Point(138, 26);
+            txtName.Margin = new Padding(2, 2, 2, 2);
             txtName.Name = "txtName";
-            txtName.Size = new Size(100, 31);
+            txtName.Size = new Size(100, 23);
             txtName.TabIndex = 0;
             // 
             // btnAdd
             // 
             btnAdd.Location = new Point(138, 55);
+            btnAdd.Margin = new Padding(2, 2, 2, 2);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(100, 23);
             btnAdd.TabIndex = 1;
@@ -55,29 +57,32 @@
             // 
             label1.AutoSize = true;
             label1.Location = new Point(12, 9);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(67, 25);
+            label1.Size = new Size(44, 15);
             label1.TabIndex = 2;
             label1.Text = "Names";
             // 
             // lstNames
             // 
             lstNames.FormattingEnabled = true;
-            lstNames.ItemHeight = 25;
+            lstNames.ItemHeight = 15;
             lstNames.Location = new Point(12, 27);
+            lstNames.Margin = new Padding(2, 2, 2, 2);
             lstNames.Name = "lstNames";
-            lstNames.Size = new Size(120, 79);
+            lstNames.Size = new Size(120, 94);
             lstNames.TabIndex = 3;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(246, 124);
+            ClientSize = new Size(252, 141);
             Controls.Add(lstNames);
             Controls.Add(label1);
             Controls.Add(btnAdd);
             Controls.Add(txtName);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             Text = "Names";
             ResumeLayout(false);
